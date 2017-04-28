@@ -7,7 +7,7 @@ Small utility for debouncing multiple callbacks.
 import default
 ```
 
-2. Create an instance and passing options.
+2. Create an instance.
 ```
 const MultiDebounce = new MultiDebounce();
 ```

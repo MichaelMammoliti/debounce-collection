@@ -146,7 +146,7 @@ class MultiDebounce {
       return null;
     }
 
-    // return actions
+    // create the timeout
     this.timeout = window.setTimeout(() => {
       actions.forEach(action => {
         // if the action has a context apply it.
